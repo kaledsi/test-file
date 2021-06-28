@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(196, 238, 234, 0.87);
+    position: relative;
+ 
+
+}
+
+.icontop img{
+    width: 100px;
+    margin: 10px;
+}
+.icontop{
+  margin-left: 60px;
+  
+}
+.name{
+    margin: auto;
+    display: inline-block;
+}
+.name h3{
+    font-size: 40px;
+    margin: 10px;
+    color: rgb(29, 142, 187);
+    letter-spacing: 5px;
+  
+}
+.suing button{
+    padding: 10px 30px;
+    color: skyblue;
+    border: 2px solid;
+    margin: 15px;
+    transition: 1s;
+}
+
+.suing button:hover{
+    background: skyblue;
+    color: #fafafa;
+    border: 2px solid skyblue;
+}
+.content img{
+    width:100%;
+    height: 500px;
+}
+
+.funder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.seo h3 {
+    text-align: center;
+}
+
+.seo h1{
+    text-align: center;
+}
+
+.seo p{
+    text-align: center;
+}
+.seo{
+    width: 437px;
+    height: 514px;
+    background-color: rgb(151, 218, 229);
+}
+
+.seo img{
+    width: 230px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.funder{
+    background-color: rgb(199, 233, 229);
+}
+
+.funder .seo img{
+    text-align:center ;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.footer{
+    background: rgb(187, 69, 69);
+    height: 50px;
+}
+.footer p{
+    color: #fafafa;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer i{
+    color: #fafafa;
+}
+
+.disign-mage img{
+    width: 270px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+
+    margin: 25px 25px;
+    
+}
+.sazzad{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.md{
+   
+    width: 205px;
+}
+
+.mp{
+    height: 150px;
+}
+
+.content-name{
+    margin-top: 50px;
+}
+.content-name h1{
+    text-align: center;
+    font-size: 70px;
+    padding: 70px 0px 0px 0px;
+}
+.not{
+    height: 150px;
+}
+
+ body h1 h2 h3 h4 h5 h6 p{
+    font-family: 'Jomhuria', cursive;
+}
+.footer{
+   
+
+}
+.footer{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.icon{
+     margin-top: 10px;
+}
+
+.icon  a i{
+    margin: 0px 9px;
+    font-size: 20px;
+    background-color: #fafafa;
+    
+    padding: 10px;
+    border-radius: 7px;
+    line-height: 7px;
+    transition: 0.5;
+}
+ 
+.icon .face i{
+    color: #2980b9;
+}
+.icon .face i:hover{
+    background-color: #2980b9;
+    color: #fafafa;
+}
+
+.icon .ins i{
+    background-color: #fafafa;
+    color:rgb(29, 142, 187)
+}
+.icon .ins i:hover{
+   background-color: rgb(29, 142, 187);
+   color: #fafafa;
+}
+
+.icon .twe i{
+    background-color: #fafafa;
+    color: #25CCF7;
+}
+
+.icon .twe i:hover{
+    background-color: #25CCF7 ;
+    color: #fafafa;
+}
+.icon .yout i{
+    background-color: #fafafa;
+    color: #EA2027;
+}
+
+.icon .yout i:hover{
+    background-color: #EA2027;
+    color:#fafafa;
+}
+
+
+.photo-manupulation{
+    text-align: center;
+}
+.left-text h1{
+    font-size: 30px;
+     text-align: center;
+     margin-right: 50px ;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.left img{
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+.singger{
+    
+    justify-content: center;
+    margin-left: 50px;
+
+}
+
+.singger-img img{
+    width: 310px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.singger-text h1{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 30px;
+}
+.mtn{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+     
+}
+
+.containersm{
+    background-color: #82ccdd;
+}

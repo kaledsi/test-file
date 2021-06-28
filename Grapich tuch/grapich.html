@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic touch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="grapicg.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="menu">
+        <div class="icontop">
+            <img src="said logo.jpg" alt="">
+        </div>
+        <div class="name">
+            <h3>Graphic Touch</h3>
+        </div>
+        <div class="suing">
+            <button>Sign up</button>
+        </div>
+    </div>
+
+
+    <div class="slider">
+        <div class="content"><img src="sliad animations/An-Introduction-To-Graphic-Design-Part-1.jpg" alt=""></div>
+        <div class="content"><img src="sliad animations/the-best-applications-to-learn-as-a-graphics-designer.jpg"
+                alt=""></div>
+        <div class="content"><img src="creative deging.jpg" alt=""></div>
+    </div>
+     
+    <div class="containersm">
+        <div class="content-name">
+            <h1>Choice your Mind</h1>
+        </div>
+        <div class="sazzad">
+    
+            <div class="container">
+                <div class="disign">
+    
+                    <div class="disign-mage">
+                        <img src="creative design/download (4).jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>Creative Designe</h1>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="disign">
+    
+                    <div class="disign-mage">
+                        <img src="illustration.jpg" class="mp" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>Illustration</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="disign">
+    
+                    <div class="disign-mage">
+                        <img src="typography.png" class="not" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>Typography</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="disign">
+    
+                    <div class="disign-mage">
+                        <img src="ptography/187363699_1661702050666709_8296850661068713223_n.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>Photography</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <div class="mtn">
+       <div class="lg">
+        <div class="left">
+            <img src="photo-manipulation.jpg" alt="">
+        </div>
+         <div class="left-text">
+            <h1 class="lot">Photo Manipulation</h1>
+         </div>
+    
+        
+            
+        
+       </div>
+       <div class="singger">
+           <div class="singger-img">
+               <img src="vector.jpg" alt="">
+           </div>
+           <div class="singger-text">
+               <h1>Vector</h1>
+           </div>
+       </div>
+
+       
+   </div>
+  
+
+    <div class="funder">
+        <div class="seo">
+            <img src="208002159_1508735722798336_6967269965494439783_n.jpg" alt="">
+            <h1>Sazzadur Rahman</h1>
+            <h3>Founder</h3>
+            <p>Hey There! Are you looking for someone
+                who can bring your visionary ideas
+                into reality? Well! There you go.
+                You are one the right place. Me
+                Sazzadur Rahman more than three
+                years of experience in the graphics
+                field and visualized 200+ projects of
+                Clients. With that said, I maintain a
+                team of designers with 16 best designers
+                in town.</p>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="last-footer">
+        <div class="footer">
+            <div class="fast">
+                <p>copyright @ by sazzadur rahman <span>2021</span> </p>
+            </div>
+            <div class="icon">
+
+
+                <a href="" class="face"><i class="fab fa-facebook"></i></a>
+                <a href=" " class="ins"> <i class="fab fa-instagram"></i> </a>
+                <a href="" class="twe"><i class="fab fa-twitter"></i></a>
+
+                <a href="" class="yout"> <i class="fab fa-youtube"></i></a>
+                <a href="" class="ins"> <i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        let index = 0;
+        function mySlide() {
+            let mycontents = document.getElementsByClassName("content");
+            for (var i = 0; i < mycontents.length; i = i + 1) {
+                mycontents[i].style.display = "none";
+            }
+            mycontents[index].style.display = "block";
+            index = index + 1;
+            if (index == mycontents.length) {
+                index = 0;
+
+            }
+            setTimeout(mySlide, 5000);
+        }
+        mySlide();
+    </script>
+</body>
+
+</html>
